@@ -11,5 +11,5 @@ sudo npm run build
 sudo yum install docker -y 
 reactimage_version_bydate=$(date +%H%M%S%m%d%Y)
 sudo docker build -t harinadh14/react_image:${reactimage_version_bydate} .
-echo "N@dh23006" | docker login -u harinadh14 --password-stdin
+echo "xxxxxxxxxx" | docker login -u harinadh14 --password-stdin
 sudo docker push harinadh14/react_image:${reactimage_version_bydate}
